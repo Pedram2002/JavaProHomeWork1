@@ -2,7 +2,11 @@ package homeWork6;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ *JavaPro Homework5
+ *@autor Pedram Kalami
+ *@20.05.2023
+ **/
 public class HomeWork6 {
     /*
      * Домашнее задание: реализовать:

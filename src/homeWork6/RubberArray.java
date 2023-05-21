@@ -1,5 +1,9 @@
 package homeWork6;
-
+/**
+ *JavaPro Homework5
+ *@autor Pedram Kalami
+ *@20.05.2023
+ **/
 public class RubberArray {
     /*
      * Домашнее задание: реализовать:
