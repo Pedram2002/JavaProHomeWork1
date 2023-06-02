@@ -1,8 +1,10 @@
 package homeWork6;
+
 /**
- *JavaPro Homework5
- *@autor Pedram Kalami
- *@20.05.2023
+ * JavaPro Homework5
+ *
+ * @autor Pedram Kalami
+ * @20.05.2023
  **/
 public class RubberArray {
     /*
@@ -56,7 +58,6 @@ public class RubberArray {
         // Копирование оставшихся элементов из исходного массива в новый массив,
         // начиная с позиции index + 1
         System.arraycopy(arrayMain, index, newArray, index + 1, arrayMain.length - 1);
-
         // Замена исходного массива на новый массив
         arrayMain = newArray;
     }
@@ -137,6 +138,8 @@ public class RubberArray {
         }
         return -1;
     }
+
+
 
     /**
      * Проверяет, является ли массив пустым.
