@@ -4,20 +4,27 @@ public class HomeworkTwo {
     /*
     1- Рекурсия - это процесс, при котором функция вызывает саму себя в своем теле.
     2- Стек - это структура данных, в которой элементы добавляются и удаляются с одного конца, называемого вершиной стека
-    3-
-       Прямая (или простая) рекурсия: функция вызывает саму себя непосредственно.
+    3- Прямая (или простая) рекурсия: функция вызывает саму себя непосредственно.
        Косвенная (или сложная) рекурсия: функция вызывает другую функцию, которая затем вызывает первую функцию или саму себя.
-    4-
-
+    4- Рекурсия подходит, когда задача может быть естественно разделена на подзадачи более низкого уровня.
+          Цикл подходит, когда важна скорость выполнения кода,или когда задача имеет итеративную или последовательную структуру и не требует разбиения на подзадачи.
+          Иногда рекурсия может быть более элегантным и понятным решением, но может потребовать больше ресурсов и иметь меньшую
+          производительность по сравнению с итеративным решением.
+    5- условие остановки (выхода из рекурсии)
+       учитывать использование стека и возможные проблемы переполнения стека при глубокой рекурсии.
     */
 
-    /**
-     * Вычисляет наибольший общий делитель (НОД) двух чисел.
-     *
-     * @param a Первое число.
-     * @param b Второе число.
-     * @return НОД двух чисел.
-     */
+    //region exercise 6
+    public static int factorial(int i) {
+        if (i == 0 || i == 1) {
+            return 1; //
+        } else {
+            return i * factorial(i - 1);
+        }
+    }
+    //endregion
+
+    //region exercise 7
     public static int gcd(int a, int b) {
         while (a != b) {
             if (a > b) {
@@ -29,12 +36,14 @@ public class HomeworkTwo {
         }
         return a;
     }
+
     public static int gcdR(int a, int b) {
         if (b == 0) {
             return a;
         }
         return gcdR(b, a % b);
     }
+
     public static int gcdR1(int a, int b) {
         if (a > b) {
             a = a - b;
@@ -45,7 +54,8 @@ public class HomeworkTwo {
 
         return gcdR1(a, b);
     }
-
+    //endregion
+    //region exercise 8
     public static void selectionSort(int[] array) {
         int n = array.length;
 
@@ -64,6 +74,8 @@ public class HomeworkTwo {
             array[i] = temp;
         }
     }
+    //endregion
+    //region exercise 9
     public static void insertionSort(int[] array) {
         for (int i = 1; i < array.length; i++) {
             int position = array[i];
@@ -79,6 +91,7 @@ public class HomeworkTwo {
             array[j + 1] = position;
         }
     }
+    //endregion
     public static void main(String[] args) {
         int a = 5648;
         int b = 79548;
