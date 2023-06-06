@@ -31,7 +31,7 @@ public class HomeWork9 {
 
         StringBuilder stringBuilder = new StringBuilder();
         for (String word : myListCopy) {
-            stringBuilder.append(word);
+            stringBuilder.append(word).append(" ");
         }
 
         System.out.println("Конкатенация: " + stringBuilder);
