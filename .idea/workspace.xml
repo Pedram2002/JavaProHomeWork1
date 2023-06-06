@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5359b38c-a726-482c-b6ef-936a77521fc6" name="Changes" comment="new">
+      <change afterPath="$PROJECT_DIR$/src/Algaritm/Lessen7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork9/HomeWork9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Algaritm/HomeworkTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Algaritm/HomeworkTwo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +62,35 @@
       <recent name="E:\Android\JavaProHomeWork1\src\homeWork3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeworkTwo">
+  <component name="RunManager" selected="Application.HomeWork9">
+    <configuration name="HomeWork9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWork9.HomeWork9" />
+      <module name="JavaProHomeWork1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomeworkTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algaritm.HomeworkTwo" />
+      <module name="JavaProHomeWork1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algaritm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lessen7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algaritm.Lessen7" />
       <module name="JavaProHomeWork1" />
       <extension name="coverage">
         <pattern>
@@ -103,6 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork9" />
+        <item itemvalue="Application.Lessen7" />
         <item itemvalue="Application.HomeworkTwo" />
         <item itemvalue="Application.SeaBattle" />
         <item itemvalue="Application.Lesson7" />
@@ -160,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685713251425</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new">
+      <created>1685731236602</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685731236602</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
