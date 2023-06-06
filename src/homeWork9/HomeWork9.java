@@ -12,6 +12,7 @@ public class HomeWork9 {
 
         System.out.println("Введите слова (для завершения введите 'stop'):");
 
+
         String str;
         while (true) {
             str = scanner.nextLine();
