@@ -21,6 +21,7 @@ public class Calculator {
             System.out.print("Введите число или символ '=' для завершения: ");
             String input = scanner.next();
 
+
             if (input.equals("=")) {
                 break;
             }
