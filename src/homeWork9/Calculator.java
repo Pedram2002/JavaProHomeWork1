@@ -6,6 +6,12 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
+        ArrayList<String> strings = new ArrayList<>();
+
+
+
+
+
         List<String> expression = readExpression();
         System.out.println("Арифметическое выражение: " + expression);
 
