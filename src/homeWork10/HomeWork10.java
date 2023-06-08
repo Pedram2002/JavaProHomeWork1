@@ -90,13 +90,19 @@ public class HomeWork10 {
     }
 
     //Даны два списка с числовыми значеними: [1, 2, 3, 2, 0] и [5, 1, 2, 7, 3, 2]. Нужно вернуть пересечение их множеств, с повторением элементов [1, 2, 2, 3]
+    /**
+     * Метод для нахождения пересечения двух списков целых чисел.
+     * @param numbers1 Первый список чисел.
+     * @param numbers2 Второй список чисел.
+     * @return Список, содержащий пересечение чисел из двух исходных списков.
+     */
     public static ArrayList<Integer> intersection(ArrayList<Integer> numbers1, ArrayList<Integer> numbers2) {
         ArrayList<Integer> result = new ArrayList<>();
-        for (int i : numbers1) {
-            int index = numbers2.indexOf(i);
-            if (index > -1) {//ura we found it
-                result.add(i);
-                numbers2.remove(index);
+        for (int value : numbers1) {
+            int index = numbers2.indexOf(value);
+            if (index > -1) { // Если число найдено во втором списке
+                result.add(value); // Добавляем число в результат
+                numbers2.remove(index); // Удаляем число из второго списка, чтобы избежать повторного добавления
             }
         }
         return result;
