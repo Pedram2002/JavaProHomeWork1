@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5359b38c-a726-482c-b6ef-936a77521fc6" name="Changes" comment="new">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWork10/HomeWork10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork10/HomeWork10.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <module name="JavaProHomeWork1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeWork10.*" />
+          <option name="PATTERN" value="homeWork11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -230,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686252227807</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="new">
+      <created>1686253306820</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686253306820</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
