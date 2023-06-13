@@ -12,6 +12,7 @@ public class Main {
             @Override
             public int compare(Point p1, Point p2) {
                 double dist1 = Math.sqrt(p1.getX() * p1.getX() + p1.getY() * p1.getY());
+                double dist3 = Math.sqrt(Math.pow(p1.getX(),2) + Math.pow(p1.getY(),2));
                 double dist2 = Math.sqrt(p2.getX() * p2.getX() + p2.getY() * p2.getY());
                 return Double.compare(dist1, dist2);
             }
