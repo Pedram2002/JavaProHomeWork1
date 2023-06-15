@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5359b38c-a726-482c-b6ef-936a77521fc6" name="Changes" comment="new">
-      <change afterPath="$PROJECT_DIR$/src/homeWork12/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork12/Homework12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeWork12/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pop.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork13/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeWork13/HomeWork13.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeWork11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork11/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeWork12/Homework12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeWork12/Homework12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +63,26 @@
       <recent name="E:\Android\JavaProHomeWork1\src\homeWork3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Homework12">
+  <component name="RunManager" selected="Application.HomeWork13">
     <configuration name="HomeWork10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homeWork10.HomeWork10" />
       <module name="JavaProHomeWork1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="homeWork11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeWork13.HomeWork13" />
+      <module name="JavaProHomeWork1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeWork13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,19 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lessen7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algaritm.Lessen7" />
-      <module name="JavaProHomeWork1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Algaritm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JavaProHomeWork1" />
@@ -128,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWork13" />
         <item itemvalue="Application.Homework12" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.HomeWork10" />
         <item itemvalue="Application.HomeWork9" />
-        <item itemvalue="Application.Lessen7" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686586664058</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="new">
+      <created>1686685446579</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686685446579</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -264,6 +268,16 @@
           <url>file://$PROJECT_DIR$/src/homeWork8/SeaBattle.java</url>
           <line>16</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homeWork12/Homework12.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/homeWork12/Homework12.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
