@@ -2,6 +2,7 @@ package homeWork12;
 
 
 import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
@@ -60,9 +61,66 @@ public class Homework12 {
 //        System.out.println(removeValuesFromMiddleArray(ArrayListMiddle, i));
 //       // System.out.println(removeValuesFromMiddleHashSet(hashSet, i));
 
+        String str = "G:\\Germany language\\Allready\\Dictionary EN-FA\\English_Farsi_Advanced.txt2";
+        ArrayList<String> fileLines = loadFile(str);
+        HashSet<String> loadFileHashSet = loadFileHashSet(str);
+        TreeSet<String> TreeSet = loadFileTreeSet(str);
 
 
+    }
 
+    public static ArrayList<String> loadFile(String filePath) {
+        long startTime = System.currentTimeMillis();
+        ArrayList<String> lines = new ArrayList<>();
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                lines.add(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Collections.sort(lines);
+
+        System.out.println(("add " + lines.size()  +" From File to Array: " + (System.currentTimeMillis() - startTime) / 1000.0 )+ "c");
+        return lines;
+    }
+
+    public static HashSet<String> loadFileHashSet(String filePath) {
+        long startTime = System.currentTimeMillis();
+        HashSet<String> lines = new HashSet<>();
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                lines.add(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println(("add " + lines.size()  +" From File to HashSet: " + (System.currentTimeMillis() - startTime) / 1000.0 )+ "c");
+
+        return lines;
+    }
+
+    public static TreeSet<String> loadFileTreeSet(String filePath) {
+        long startTime = System.currentTimeMillis();
+        TreeSet<String> lines = new TreeSet<>();
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                lines.add(line);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println(("add " + lines.size()  +" From File to TreeSet: " + (System.currentTimeMillis() - startTime) / 1000.0 )+ "c");
+
+        return lines;
     }
 
     public static void loadDic(ArrayList<String> arrayList, java.io.InputStream isr) {
@@ -81,6 +139,7 @@ public class Homework12 {
             e.printStackTrace();
         }
     }
+
     public static String addValuesToEndTreeSet(TreeSet<Integer> list, int count) {
         long startTime = System.currentTimeMillis();
 
@@ -89,7 +148,8 @@ public class Homework12 {
         }
         return "add Values To TreeSet: " + (System.currentTimeMillis() - startTime);
     }
-    public void flowers(){
+
+    public void flowers() {
         HashSet<String> rainbowFlowers = new HashSet<>();
 
         rainbowFlowers.add("Роза");
@@ -101,6 +161,7 @@ public class Homework12 {
         rainbowFlowers.add("Астра");
         System.out.println(rainbowFlowers);
     }
+
     public static String addValuesToEnd(LinkedList<Integer> list, int count) {
         long startTime = System.currentTimeMillis();
 
@@ -156,15 +217,16 @@ public class Homework12 {
         return "remove Values From Middle: " + (System.currentTimeMillis() - startTime);
     }
 
-//~~~~~~~~~~~~~~~~~~~~~~~HashSet
+    //~~~~~~~~~~~~~~~~~~~~~~~HashSet
     public static String addValuesToHashSet(HashSet<Integer> list, int count) {
         long startTime = System.currentTimeMillis();
 
         for (int i = 0; i < count; i++) {
-            list.add( i);
+            list.add(i);
         }
         return "add Values To End HashSet: " + (System.currentTimeMillis() - startTime);
     }
+
     public static String removeValuesFromEndHashSet(HashSet<Integer> list, int count) {
         long startTime = System.currentTimeMillis();
 //        Iterator<Integer> inttIterator = list.iterator();

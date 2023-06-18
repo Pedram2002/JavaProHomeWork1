@@ -2,6 +2,8 @@ package homeWork13;
 
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class HomeWork13 {
     ///Задание 1
@@ -11,8 +13,14 @@ public class HomeWork13 {
         Collections.addAll(uniqueWords, words);
         return uniqueWords.size();
     }
-
+    public static int countUniWordsTreeSet(String text) {
+        String[] words = text.toLowerCase().split(" ");
+        TreeSet<String> uniqueWords = new TreeSet<>();
+        Collections.addAll(uniqueWords, words);
+        return uniqueWords.size();
+    }
     public static void main(String[] args) {
+
         HashSet<Car> carSet = new HashSet<>();
 
 
@@ -27,6 +35,8 @@ public class HomeWork13 {
         for (Car car : carSet) {
             System.out.println(car);
         }
+
+
     }
 
 }
