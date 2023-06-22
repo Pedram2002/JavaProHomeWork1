@@ -1,13 +1,22 @@
+import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class Main {
     public static void main(String[] args) {
-        int[] array = {5, 2, 9, 1, 3, 7};
-        quickSort(array, 0, array.length - 1);
-        System.out.println(Arrays.toString(array));
 
+        ArrayList<String> stringArrays = new ArrayList<>();
+       pop(stringArrays);
+        System.out.println(stringArrays);
 
-        getNumberCount(new int[]{1, 1, 2, 2, 2, 2, 3,}, 2);
+    }
+    public static void pop(ArrayList<String> stringArrays) {
+        stringArrays.add("dfgdg");
+    }
+    public static void pop(AtomicInteger i) {
+        i.set(99);
     }
     public static int getNumberCount(int[] arr, int x) {
         System.out.println(searchLeft(x, arr, 0, arr.length));

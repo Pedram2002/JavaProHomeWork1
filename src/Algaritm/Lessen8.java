@@ -1,5 +1,9 @@
 package Algaritm;
 
+import javax.lang.model.util.Elements;
+import javax.swing.text.Document;
+import java.util.ArrayList;
+
 public class Lessen8 {
     //1- Идея алгоритма быстрой сортировки (Quicksort) заключается в следующем:
 
@@ -141,6 +145,21 @@ public class Lessen8 {
     }
 
     //11
+    public String getContainOfTag(String alltext, String slash, String className) {
+        int pos1;
+
+        // find the class
+        pos1 = alltext.indexOf("<" + slash + " class='" + className + "'");
+        if (pos1 == -1)
+            return "";
+        pos1 = alltext.indexOf(">", pos1);
+        if (pos1 == -1)
+            return "";
+        int pos2 = alltext.indexOf("<", pos1);
+        if (pos2 == -1)
+            return "";
+        return alltext.substring(pos1 + 1, pos2);
+    }
 
     public static int findPeakElement(int[][] matrix) {
         int rows = matrix.length;
